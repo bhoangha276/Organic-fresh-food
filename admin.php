@@ -178,7 +178,7 @@
 
         <div class="list-user-gold">
           <div class="user box">
-            <div style="" class="title">Khách hàng VIP</div>
+            <div class="title">Khách hàng VIP</div>
             <div class="user-details" style="overflow-x: auto">
               <table>
                 <thead>
