@@ -17,7 +17,7 @@
     <div class="sidebar">
       <div class="logo-detail">
         <i class="bx bxs-shopping-bags"></i>
-        <span class="logo_name">Epu</span>
+        <span class="logo_name">Admin</span>
       </div>
       <ul class="nav-link">
         <li>
@@ -128,7 +128,7 @@
       <!-- Start Home-content -->
       <div class="home-content">
         <!-- Start Overview-box -->
-        <div class="overview-boxes">
+        <!-- <div class="overview-boxes">
           <?php
             $sql_count_users = mysqli_query($conn,"SELECT COUNT(*) as total FROM user");
             $result_count_users = mysqli_fetch_assoc($sql_count_users);
@@ -173,7 +173,7 @@
             </div>
             <i class="bx bxs-cart-download cart four"></i>
           </div>
-        </div>
+        </div> -->
         <!-- End Overview-box -->
 
         <div class="list-user-gold">
