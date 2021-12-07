@@ -12,7 +12,7 @@
     />
 </head>
 <body>
-<?php require_once "connect.php"; ?>
+<?php require_once "connect.php";?>
     <section class="home-content">
       <h1 class="heading">Danh sách <span>nội dung danh mục</span></h1>
       <div class="list-products">
