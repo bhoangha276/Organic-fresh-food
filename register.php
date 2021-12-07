@@ -29,7 +29,7 @@
           $sql = "INSERT INTO user (username,password,fullname,email,dateofbirth,phone,address)  VALUES ('".$_POST['username']."','".$_POST['password']."','".$_POST['fullname']."','".$_POST['email']."', '".$_POST['datebirth']."', '".$_POST['phone']."','".$_POST['address']."')";
           $result = $conn->query($sql); 
           if($result === TRUE) { 
-            header("Location: http://localhost:8080/Website_Store/login.php"); 
+            header("Location: http://localhost:8080/organic-fresh-food/login.php"); 
           } 
           else{ 
             echo '<script> alert("Đăng ký không thành công");</script>'; 
