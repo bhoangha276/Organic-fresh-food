@@ -32,9 +32,8 @@
           else
           {
             session_start();
-            $_SESSION['id'] = $row['id'];
-            echo("Dang nhap thanh cong");
-            // header('Location: index.php'); 
+            header('Location:http://localhost:8080/organic-fresh-food/list-users.php');
+            
           }
          
         }
@@ -85,7 +84,7 @@
         </form>
       </div>
     </div>
-    <!-- custom js file link -->
+   
     <script src="assets/js/script.js"></script>
 
   </body>
