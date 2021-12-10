@@ -32,7 +32,7 @@
           else
           {
             session_start();
-            header('Location:http://localhost:8080/organic-fresh-food/list-users.php');
+            header('Location:http://localhost/organic-fresh-food/list-users.php');
             
           }
          
