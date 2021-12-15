@@ -21,7 +21,7 @@
             $sql ="UPDATE user SET password='$password' Where username = '$username'"; 
             $result = $conn->query($sql); 
             if($result === TRUE){ 
-              header("Location:http://localhost:8080/organic-fresh-food/login.php"); 
+              header("Location:http://localhost:8080/Website_Store/login.php"); 
             } 
             else{ 
               echo '<script> alert("Đổi mật khẩu không thành công");</script>'; 

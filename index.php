@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cửa Hàng Nông Sản</title>
+    <title>Cửa Hàng Thực phẩm</title>
     <link rel="shortcut icon" href="assets/img/logo.png">
     <link
       rel="stylesheet"
@@ -359,7 +359,7 @@
             <p>
               <?php echo $row_blog['content_blog'] ?>.
             </p>
-            <a href="<?php echo $row_blog['url'] ?>" target="_blank" class="btn">đọc thêm</a>
+            <a href="#" class="btn">đọc thêm</a>
           </div>
         </div>
         <?php
@@ -418,7 +418,7 @@
       </div>
         
       <div class="credit">
-        created by <span> Hà - Hoàng - Đạt</span>
+        created by <span> Hà - Hoàng - Đạt </span>
       </div>
     </section>
     <!-- footer section ends -->

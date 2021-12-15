@@ -12,6 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+    <!-- custom css file link -->
     <link rel="stylesheet" href="assets/css/login.css" />
   </head>
   <body>
@@ -32,8 +33,8 @@
           else
           {
             session_start();
-            header('Location:http://localhost:8080/organic-fresh-food/index.php');
-            
+            $_SESSION['id'] = $row['id'];
+            header('Location: index.php'); 
           }
          
         }
@@ -84,7 +85,7 @@
         </form>
       </div>
     </div>
-   
+    <!-- custom js file link -->
     <script src="assets/js/script.js"></script>
 
   </body>
