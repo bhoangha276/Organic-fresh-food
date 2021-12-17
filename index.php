@@ -359,7 +359,7 @@
             <p>
               <?php echo $row_blog['content_blog'] ?>.
             </p>
-            <a href="#" class="btn">đọc thêm</a>
+            <a href="<?php echo $row_blog['url'] ?>" class="btn" target="_blank">đọc thêm</a>
           </div>
         </div>
         <?php
