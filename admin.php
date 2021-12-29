@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin</title>
+    <title>Fresh Food Admin</title>
     <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
@@ -17,7 +17,7 @@
     <div class="sidebar">
       <div class="logo-detail">
         <i class="bx bxs-shopping-bags"></i>
-        <span class="logo_name">Epu</span>
+        <span class="logo_name">Admin</span>
       </div>
       <ul class="nav-link">
         <li>
