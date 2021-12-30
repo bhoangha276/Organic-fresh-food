@@ -100,7 +100,7 @@
           </div>
           <div class="button">
             <div class="back">
-              <a href="http://localhost:8080/Website_Store/index.php">Quay lại</a>
+              <a href="http://localhost:8080/organic-fresh-food/index.php">Quay lại</a>
             </div>
             <input type="submit" name="edit-user" value="Chỉnh sửa" />
           </div>

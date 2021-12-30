@@ -20,8 +20,9 @@
             $password = $_POST['password']; 
             $sql ="UPDATE user SET password='$password' Where username = '$username'"; 
             $result = $conn->query($sql); 
-            if($result === TRUE){ 
-              header("Location:http://localhost:8080/Website_Store/login.php"); 
+            if($result === TRUE){
+              echo '<script> alert("Đổi mật khẩu thành công");</script>'; 
+              header("Location:http://localhost:8080/organic-fresh-food/login.php"); 
             } 
             else{ 
               echo '<script> alert("Đổi mật khẩu không thành công");</script>'; 
